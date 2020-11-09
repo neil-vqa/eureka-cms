@@ -22,7 +22,7 @@ collections:
       - { label: 'Featured Image', name: 'image', widget: 'image'}
 
   - name: 'announcement'
-    - name: 'announcement'
+    label: 'Announcements'
     folder: 'content/announcement'
     format: 'frontmatter'
     create: true

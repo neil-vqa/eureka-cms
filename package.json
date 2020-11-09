@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-file": "processmd \"content/**/*.{yml,md}\" --stdout --outputDir static > summary.json"
+    "build-file": ""
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,7 @@
     "url": "https://github.com/neil-vqa/eureka-cms/issues"
   },
   "homepage": "https://github.com/neil-vqa/eureka-cms#readme",
-  "devDependencies": {
-    "processmd": "^4.5.3"
-  },
+  "devDependencies": {},
   "dependencies": {
     "fs-extra": "^9.0.1",
     "marked": "^1.2.3"

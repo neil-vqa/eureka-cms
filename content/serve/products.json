@@ -6,5 +6,19 @@
       "price": 12000,
       "image": "/img/man_fishing.jpg"
     }
+  ],
+  "product": [
+    {
+      "image": "/img/pic4.jpg",
+      "name": "Adventurous Dawn",
+      "description": "My pet going out for walk.",
+      "price": 7991
+    },
+    {
+      "name": "Countryside Fishing",
+      "description": "Done during my vacation.",
+      "price": 5000,
+      "image": "/img/man_fishing.jpg"
+    }
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "fileMap": {
+    "static/json/man-finshing-nkcrkdnuii.json": {
+      "name": "man finshing",
+      "id": "NKCRKDNUII",
+      "description": "painting by neil van",
+      "price": 15000,
+      "image": "/img/man_fishing.jpg",
+      "dir": "static/json",
+      "base": "man-finshing-nkcrkdnuii.json",
+      "ext": ".json",
+      "sourceBase": "man-finshing-nkcrkdnuii.md",
+      "sourceExt": ".md"
+    }
+  },
+  "sourceFileArray": [
+    "content/products/man-finshing-nkcrkdnuii.md"
+  ]
+}

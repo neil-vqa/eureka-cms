@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-file": "processmd \"content/**/*.{yml,md}\" --stdout --outputDir static/json > static/summary.json"
+    "build-file": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "processmd": "^4.5.3"
   },
   "dependencies": {
+    "json-concat": "0.0.1",
     "marked": "^1.2.3"
   }
 }

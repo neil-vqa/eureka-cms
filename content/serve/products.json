@@ -1,12 +1,4 @@
 {
-  "items": [
-    {
-      "name": "Blues Fishing",
-      "description": "fishing vacation",
-      "price": 12000,
-      "image": "/img/man_fishing.jpg"
-    }
-  ],
   "product": [
     {
       "image": "/img/pic4.jpg",

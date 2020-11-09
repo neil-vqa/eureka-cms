@@ -1,5 +1,5 @@
 ---
-name: man finshing
+name: Man Fishing
 id: NKCRKDNUII
 description: painting by neil van
 price: 15000

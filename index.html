@@ -5,14 +5,61 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name=”robots” content="index, follow">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Eureka Systems</title>
+	<title>Store Manager | Eureka Web Services</title>
 	<meta name="description" content="">
 	
 	<link rel="icon" type="image/x-icon" href="">
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	
+	<style type="text/css" media="screen">
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			height: 100vh;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.welcome {
+			background-color: black;
+			color: white;
+			text-align: center;
+			border: 2px black solid;
+			border-radius: 15px;
+			padding: 2rem 3rem;
+			display: flex;
+			flex-direction: column;
+		}
+		.admin {
+			background-color: white;
+			border: 2px black solid;
+			border-radius: 10px;
+			padding: 1.75rem;
+			margin-top: 1rem;
+			color: black;
+			text-decoration: none;
+		}
+		.admin:hover {
+			background-color: gray;
+			color: white;
+		}
+	</style>
+	
+	
 </head>
 <body>
-	<h1>Welcome to Eureka Systems!</h1>
-	<p>For Integrated BEB systems: Store Manager</p>
+	<div class="container">
+		<div class="welcome">
+			<h1>Welcome!</h1>
+			<p>For Integrated BEB system: Store Manager</p>
+			<p>Powered by Netlify CMS</p>
+			<a href="/admin" class="admin"><strong>PROCEED TO ADMIN</strong></a>
+		</div>
+	</div>
+	
 </body>
 </html>

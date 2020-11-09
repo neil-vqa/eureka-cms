@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-file": "node build.js"
+    "build-file": "node products.js && node announce.js"
   },
   "repository": {
     "type": "git",

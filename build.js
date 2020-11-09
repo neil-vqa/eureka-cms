@@ -2,7 +2,7 @@ var jsonConcat = require("json-concat");
 
 jsonConcat({
     src: './content/products',
-    dest: './content/products/index.js'
+    dest: './content/products/index.json'
 }, function (json, err) {
     console.log(json);
      console.log(err);
@@ -10,7 +10,7 @@ jsonConcat({
 
 jsonConcat({
     src: './content/announcement',
-    dest: './content/announcement/index.js'
+    dest: './content/announcement/index.json'
 }, function (json, err) {
     console.log(json);
      console.log(err);

@@ -11,7 +11,7 @@ collections:
     folder: 'content/products'
     format: 'frontmatter'
     create: true
-    slug: '{{name}}-{{id}}'
+    slug: '{{name}}'
     editor:
       preview: false
     fields:
@@ -21,4 +21,18 @@ collections:
       - { label: 'Price', name: 'price', widget: 'number' }
       - { label: 'Featured Image', name: 'image', widget: 'image'}
 
-
+	- name: 'announcement'
+		  label: 'Announcement'
+		  folder: 'content/announcement'
+		  format: 'frontmatter'
+		  create: true
+		  slug: '{{title}}'
+		  editor:
+		    preview: false
+		  fields:
+		    - { label: 'Title', name: 'title', widget: 'string' }
+		    - { label: 'Description', name: 'description', widget: 'string' }
+		    - { label: 'Date', name: 'date', widget: 'date' }
+		    
+		    
+		    

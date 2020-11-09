@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-file": ""
+    "build": "",
+    "dev": "python3 -m http.server"
   },
   "repository": {
     "type": "git",

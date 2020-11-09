@@ -9,7 +9,7 @@ collections:
   - name: 'products'
     label: 'Products'
     folder: 'content/products'
-    format: 'frontmatter'
+    extension: 'json'
     create: true
     slug: '{{name}}'
     editor:
@@ -24,7 +24,7 @@ collections:
   - name: 'announcement'
     label: 'Announcements'
     folder: 'content/announcement'
-    format: 'frontmatter'
+    extension: 'json'
     create: true
     slug: '{{title}}'
     editor:

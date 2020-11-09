@@ -20,19 +20,17 @@ collections:
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Price', name: 'price', widget: 'number' }
       - { label: 'Featured Image', name: 'image', widget: 'image'}
-
-	- name: 'announcement'
-		  label: 'Announcement'
-		  folder: 'content/announcement'
-		  format: 'frontmatter'
-		  create: true
-		  slug: '{{title}}'
-		  editor:
-		    preview: false
-		  fields:
-		    - { label: 'Title', name: 'title', widget: 'string' }
-		    - { label: 'Description', name: 'description', widget: 'string' }
-		    - { label: 'Date', name: 'date', widget: 'date' }
-		    
-		    
+      
+  - name: 'announcement'
+    label: 'Announcement'
+    folder: 'content/announcement'
+    format: 'frontmatter'
+    create: true
+    slug: '{{title}}'
+    editor:
+      preview: false
+    fields:
+    	- { label: 'Title', name: 'title', widget: 'string' }
+    	- { label: 'Description', name: 'description', widget: 'string' }
+    	- { label: 'Date', name: 'date', widget: 'date' }
 		    

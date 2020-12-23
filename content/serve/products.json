@@ -11,6 +11,12 @@
       "description": "Done during my vacation.",
       "price": 5000,
       "image": "/img/man_fishing.jpg"
+    },
+    {
+      "name": "Soyuz",
+      "description": "Russian rocket",
+      "price": 800,
+      "image": "/img/soyuz.png"
     }
   ]
 }
